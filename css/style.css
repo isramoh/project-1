@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+@font-face{
+
+    font-family: 'CollegeSparkle';
+    src: url("../media/fonts/FNL_DEMO-KCFonts.ttf");
+}
+
+body{
+    background-image: url("../media/images/cute cat.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(187, 142, 214);
+}
