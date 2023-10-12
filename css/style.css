@@ -3,15 +3,71 @@
 @font-face{
 
     font-family: 'CollegeSparkle';
-    src: url("../media/fonts/FNL_DEMO-KCFonts.ttf");
+    src: url("../media/fonts/mostera-cufonfonts.zip");
 }
 
 body{
-    background-image: url("../media/images/cute cat.jpeg");
+    background-image: url("../media/images/rainbowbackground.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 h1{
     font-family: 'Cormorant Garamond', serif;
     color: rgb(187, 142, 214);
+    font-style: bold;
+    background-color: rgb(134, 211, 237);
+    font-size: 80px;
 }
+
+img {
+    width: 24%;
+    height: 350px;
+    /* border: 8px dashed magenta; */
+    margin-top: 10px; */ */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* padding: 15px; */
+    display:after
+    /* align-items: */
+    /* justify-content: center; */
+}
+
+
+
+.page1{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 15px 32px; /*around wordsspace*/
+    font-size: 20px;
+}
+
+.page2{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 15px 32px; /*around wordsspace*/
+    font-size: 20px;
+}
+
+.page3{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 15px 32px; /*around wordsspace*/
+    font-size: 20px;
+}
+
+.page4{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 15px 32px; /*around wordsspace*/
+    font-size: 20px;
+}
+
+
+.yt{
+    border: red 5px solid;
+}
+

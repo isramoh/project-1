@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.clickme{
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 15px 32px; /*around wordsspace*/
+  font-size: 20px;
+}
+
+.clickme:hover{ /*changes properties while hovering */
+  background-color: aquamarine;
+  color: black;
+}
+
