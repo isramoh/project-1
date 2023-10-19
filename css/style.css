@@ -35,7 +35,7 @@ img {
 
 
 .page1{
-    background-color: orange;
+    background-color: rgb(234, 209, 163);
     color: white;
     text-align: center;
     padding: 15px 32px; /*around wordsspace*/
@@ -43,7 +43,7 @@ img {
 }
 
 .page2{
-    background-color: orange;
+    background-color: rgb(143, 228, 231);
     color: white;
     text-align: center;
     padding: 15px 32px; /*around wordsspace*/
@@ -51,7 +51,7 @@ img {
 }
 
 .page3{
-    background-color: orange;
+    background-color: rgb(237, 187, 190);
     color: white;
     text-align: center;
     padding: 15px 32px; /*around wordsspace*/
@@ -59,15 +59,29 @@ img {
 }
 
 .page4{
-    background-color: orange;
+    background-color: rgb(219, 174, 235);
     color: white;
     text-align: center;
     padding: 15px 32px; /*around wordsspace*/
     font-size: 20px;
 }
 
+.page1:hover{ /*changes properties while hovering */
+    background-color: rgb(4, 17, 12);
+    color: rgb(238, 230, 230);
+  }
 
-.yt{
-    border: red 5px solid;
+.page2:hover{ /*changes properties while hovering */
+background-color: rgb(4, 17, 12);
+color: rgb(238, 230, 230);
+}
+
+.page3:hover{ /*changes properties while hovering */
+background-color: rgb(4, 17, 12);
+color: rgb(238, 230, 230);
+}
+.page4:hover{ /*changes properties while hovering */
+background-color: rgb(4, 17, 12);
+color: rgb(238, 230, 230);
 }
 

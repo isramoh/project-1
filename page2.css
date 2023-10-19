@@ -16,7 +16,7 @@ body{
     overflow:hidden;
   }
   header nav{
-    background:#000;
+    background:#095e37;
     color:#fff;
     overflow:hidden;
     padding:10px auto;
@@ -43,7 +43,7 @@ body{
     background:#fff;
   }
   .title{
-    background: #000;
+    background: #095e37;
     color: #fff;
     padding: 5px;
     padding-left: 10px;

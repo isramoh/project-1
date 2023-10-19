@@ -13,7 +13,7 @@ body{
   }
   .picheader{
     height:250px;
-    overflow:hidden;
+    overflow:hidden; 
   }
   header nav{
     background:#000;

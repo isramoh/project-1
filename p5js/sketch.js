@@ -1,6 +1,7 @@
 var phone;
 var cat;
 var buzz;
+var click;
 var catImgPosX = 0;
 var checkClick = false;
 var ellipseX;
@@ -13,6 +14,7 @@ function preload(){
   //allows image to be clickable
 
   buzz = loadSound("../media/audio/529979__lartti__phone-vibrate.wav");
+  click = loadSound("../media/audio/mouse-click.mp3");
 }
 
 function setup() {
@@ -28,6 +30,7 @@ function setup() {
 }
 
 function draw() {
+
 
   background("#ede9e8");
   // squareSize = random(4, 250);
@@ -110,8 +113,10 @@ function draw() {
   }
 }
 
+
 let x = 0;
 function mousePressed(){//want only one time after one press
+  click.play();
   x++;
 }
 
